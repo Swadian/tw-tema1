@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  max-height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: tomato;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+.flexbox-container {
+  display: flex;
+  /* aliniem lucruri */
+  height: 600px;
+  /* cele mai utile linii din css <3 */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* justify-content: space-around; */
+  /* justify-content: flex-end;
+  align-items: flex-end;  */
+  /* flex-direction: column; */
+  border: 1px solid black;
+}
+
+.flexbox-item {
+  width: 200px;
+  margin: 10px;
+  border: 3px solid rebeccapurple;
+  background-color: orange;
+  height: 300px;
+}
+
+.flexbox-item-1 {
+  min-height: 100px;
+  background-color: red;
+  /* order: 3; */
+  /* flex-grow: 1; */
+}
+
+.flexbox-item-2 {
+  min-height: 200px;
+  background-color: cadetblue;
+  /* order: 2; */
+  /* flex-grow: 0; */
+}
+
+.flexbox-item-3 {
+  min-height: 300px;
+  background-color: darkblue;
+  /* order: 1; */
+  /* flex-grow: 1; */
+}

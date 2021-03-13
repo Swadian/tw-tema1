@@ -1,0 +1,28 @@
+* {
+    margin:0;
+    padding:0;
+}
+.header{
+display: flex;
+align-content: center;
+justify-content: center;
+background-color: #ffffff;
+height: 50px;
+}
+input {
+height:70%;
+background-color: #fafafa;
+
+}
+.menu-container{
+width:70%;
+    background-color: #fafafa ;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+span{
+    font-family: monospace;
+    padding: 10px;
+}
